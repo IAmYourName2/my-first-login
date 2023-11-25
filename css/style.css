@@ -1,0 +1,78 @@
+body {
+    background-image: url('https://preview.redd.it/4v718eku9z221.png?width=1080&crop=smart&auto=webp&s=0ce270257ed7d4108b28a1548a7fe2b82764c83b');
+    height: 100vh;
+    width: 100vw;
+    overflow: show;
+}
+
+.heading {
+    color: teal;
+}
+
+form {
+    border: 5px solid transparent;
+    border-radius: 10px;
+    padding: 10px;
+    /* transition: all 500ms; */
+}
+
+form:hover {
+    border-color: cyan;
+    transition: full 5s;
+}
+
+#a {
+    text-decoration: underline;
+    text-align: center;
+    font-size: 50px;
+}
+
+label {
+    color: white;
+    font-size: 43px;
+    /* transition: all 500ms; */
+}
+
+label:hover {
+    text-decoration: underline;
+    /* text-shadow: 10px 10px 10px red; */
+}
+
+label:focus {
+    color: green;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+button {
+    background-color: green;
+    color: white;
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+button:focus {
+    background-color: red;
+}
+
+input {
+    border: none;
+    height: 50px;
+    width: 250px;
+    border-radius: 10px;
+}

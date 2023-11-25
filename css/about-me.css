@@ -1,0 +1,42 @@
+header {
+    background: url(https://images.unsplash.com/photo-1604251405903-b8c4e83cdf7c?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FsbWluZ3xlbnwwfHwwfHx8MA%3D%3D)
+}
+
+header>ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul>li {
+    list-style: none;
+}
+
+header ul>li {
+    list-style: none;
+    font-size: 30px;
+    transition: all 3s ease;
+}
+
+header ul>li:hover {
+    text-decoration: underline;
+    color: cyan;
+}
+
+
+h2 {
+    text-align: center;
+
+}
+
+.information ul>li {
+    font-size: 30px
+}
+
+.information {
+    display: flex;
+    gap: 20px;
+}
+
+.about-me {
+    display: flex;
+}
